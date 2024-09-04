@@ -1,0 +1,8 @@
+utility\ScreenShot2.class
+utility\MakeConnectionPOI.class
+testcases\Login.class
+testcases\Shop.class
+core\Hook.class
+externalxpath\AmazonXpath.class
+testcases\ForgetTest.class
+core\Page.class

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <test name="AdminTest">
+  <parameter name="browser" value="edge" />
+  <parameter name="url" value="https://www.amazon.in" />
+  <parameter name="reportname" value="LoginReport" />
+  <parameter name="testname" value="BrowserTest" />
+  <parameter name="key" value="true" />
+    <classes>
+      <class name="testcases.Login"/>
+      <class name="testcases.Shop"/>
+    </classes>
+  </test>  <!-- Test -->
+  
+  <test name="ForgetTest">
+  <parameter name="browser" value="edge" />
+  <parameter name="url" value="https://www.amazon.in" />
+  <parameter name="reportname" value="ForgetReport" />
+  <parameter name="testname" value="BrowserTest" />
+  <parameter name="key" value="false" />
+    <classes>
+      <class name="testcases.Login"/>
+      <class name="testcases.ForgetTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
