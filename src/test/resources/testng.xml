@@ -19,7 +19,7 @@
   <parameter name="url" value="https://www.amazon.in" />
   <parameter name="reportname" value="ForgetReport" />
   <parameter name="testname" value="BrowserTest" />
-  <parameter name="key" value="false" />
+  <parameter name="key" value="true" />
     <classes>
       <class name="testcases.Login"/>
       <class name="testcases.ForgetTest"/>
